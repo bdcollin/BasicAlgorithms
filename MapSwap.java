@@ -1,7 +1,3 @@
-/*
-Blair C. Gentry
-CSC 330 - Assignment 1
-*/
 
 import java.util.*;
 
