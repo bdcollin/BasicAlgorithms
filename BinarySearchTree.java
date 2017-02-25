@@ -1,10 +1,4 @@
 
-/* 
-Blair Gentry
-
-This program creates a Binary Search Tree and tests the BST,
-printing out elements as they are traversed.
- */
 class BinarySearchTree {
 
     private static BinaryNode root;
@@ -65,12 +59,12 @@ class BinarySearchTree {
     public static void main(String[] args) throws DuplicateItemException {
         //create new BST to test and insert nodes
         BinarySearchTree test = new BinarySearchTree();
-        test.insertNode(50);
-        test.insertNode(25);
+        test.insertNode(5);
         test.insertNode(15);
-        test.insertNode(30);
-        test.insertNode(75);
-        test.insertNode(85);
+        test.insertNode(17);
+        test.insertNode(99);
+        test.insertNode(8);
+        test.insertNode(21);
 
         //display results
         System.out.println("Root: " + root.data); //print root of BST
