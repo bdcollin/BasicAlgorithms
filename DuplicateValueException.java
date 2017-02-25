@@ -1,7 +1,3 @@
-/*
-Blair C. Gentry
-CSC 330 - Assignment 1
-*/
 
 public class DuplicateValueException extends Exception {
     /*
